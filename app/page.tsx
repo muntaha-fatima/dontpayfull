@@ -67,7 +67,7 @@ export default function Home() {
             <li><a href="#control-popups">Can I control how often Coupons Extension pops up or displays information?</a></li>
             <li><a href="#free-coupons-extension">Is the Coupons Extension free to use?</a></li>
             <li><a href="#how-extension-works">How does the Coupons Extensions work?</a></li>
-            <li><a href="#coupons-not-working">Coupons Extension isn't finding savings for my shopping cart.</a></li>
+            <li><a href="#coupons-not-working">Coupons Extension isn&apos;t finding savings for my shopping cart.</a></li>
           </ul>
         </div>
 
@@ -77,7 +77,7 @@ export default function Home() {
           <ul className="text-sm font-bold text-green-800">
             <li><a href="#online-coupons">What are online coupons?</a></li>
             <li><a href="#use-coupon-code">How do I use a coupon code?</a></li>
-            <li><a href="#coupon-didnt-work">A coupon I tried didn't work. What's next?</a></li>
+            <li><a href="#coupon-didnt-work">A coupon I tried didn&apos;t work. What&apos;s next?</a></li>
             <li><a href="#charge-to-use">How much do you charge to use DontPayFull.com?</a></li>
           </ul>
 

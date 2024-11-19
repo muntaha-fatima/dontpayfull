@@ -76,7 +76,7 @@ export default function Blog() {
               <div className="absolute inset-0 flex flex-col  items-start text-white p-44 mb-80">
   
   <h1 className="mb-16 mt-32">
-  Best Practices for Preserving Your Smart Appliances' Performance
+  Best Practices for Preserving Your Smart Appliances Performance
   </h1>
   
   <button className="bg-gray-400 text-white px-4 py-2   rounded hover:bg-blue-700">
