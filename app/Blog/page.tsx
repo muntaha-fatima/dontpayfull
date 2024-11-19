@@ -440,7 +440,7 @@ export default function Blog() {
               width={800}
               height={450}
             />
-            <h1 className="p-10 text-black text-3xl">Exploring Bali's Hidden Cultural Wonders</h1>
+            <h1 className="p-10 text-black text-3xl">Exploring Bali&apos;s Hidden Cultural Wonders</h1>
           </div>
 
           <div className="relative bg-transparent shadow-md rounded-md overflow-hidden hover:shadow-lg transition-shadow pb-28">
