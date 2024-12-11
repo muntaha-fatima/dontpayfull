@@ -1,6 +1,6 @@
 
 
-import { FaHeart, FaCar, FaBaby, FaBrush, FaTshirt, FaLaptop, FaHome, } from "react-icons/fa"; // Import icons
+import { FaHeart, FaCar, FaBaby, FaBrush, FaLaptop, FaHome, } from "react-icons/fa"; // Import icons
 import { GiLipstick, GiShirt, GiPawHeart, GiCakeSlice, GiFlashlight } from "react-icons/gi";
 
 export default function Categories() {
@@ -32,7 +32,7 @@ export default function Categories() {
         Coupons, Promo Codes & Deals by Category
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-3 gap-4">
-        {categories.map((category, index) => (
+        {categories.map((category,) => (
           // <Link
           //   href={`/categories/${category.name.toLowerCase().replace(/ /g, "-")}`}
           //   key={index}

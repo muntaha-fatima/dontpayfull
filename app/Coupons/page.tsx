@@ -15,7 +15,7 @@ return(
        
 {/* Popular Deals Section */}
 <section className="mb-20">
-  <h3 className="text-xl font-semibold mb-7 ml-44">Today's Most Popular Coupons & Deals</h3>
+  <h3 className="text-xl font-semibold mb-7 ml-44">Today&apos;s Most Popular Coupons & Deals</h3>
   
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-9 mx-auto max-w-7xl">
 {/* Udemy Deal */}
@@ -90,7 +90,7 @@ Get deal
 <div className="bg-white border p-6 rounded-lg shadow-lg">
 <p className="text-sm text-gray-500 font-medium mb-2 ml-20">Verified<span className="text-gray-600">• Sunspel</span> • Sunspel</p>
 <h4 className="text-lg font-semibold mb-2 ml-20">
-Up to 30% Off Selected Men's Styles on Black Friday Sale
+Up to 30% Off Selected Men&apos;s Styles on Black Friday Sale
 </h4>
 <h1 className="text-1xl font-serif font-bold mb-2 ml-1">
 SUNSPEL

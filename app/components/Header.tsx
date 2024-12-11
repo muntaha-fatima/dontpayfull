@@ -1,30 +1,26 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 export default function Header() {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
+
 
   return (
     <header className="bg-white text-sm flex flex-col md:flex-row items-center md:justify-between  sm:flex-row-items-center sm:justify-between p-1 md:p-1  sm-p-0 space-y-2 md:space-y-0">
       {/* Logo Section */}
-      <div className="flex items-center gap-1 md:gap-1 ml-28">
+      <div className="flex items-center md:gap-1 ml-28">
         <Image
           src="/image/Logo-ATT.png"
           alt="logo"
           width={100}
           height={50}
-          className="w-full md:w-36 h-auto p-4 md:gap-7"
+          className="w-full md:w-36 h-auto p-4  md:gap-7 sm:gap-1"
         />
-        <h1 className="text-3xl bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent font-bold mr-40">
+        <h1 className="text-3xl bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent font-bold mr-60 md:mr-4 sm:ml-2">
           BRANDWELL
         </h1>
       </div>
@@ -32,7 +28,7 @@ export default function Header() {
       {/* Navigation Links */}
       <nav className="flex gap-4 items-center mr-44  md:flex space-x-3 sm:flex-space-x-1 list-none text-xl">
         <Link href="/" className="hover:text-orange-500">
-          🏠 HOME
+           HOME
         </Link>
 
         {/* CATEGORIES with Dropdown */}
@@ -93,7 +89,7 @@ export default function Header() {
           <SheetContent>
             <ul>
               <li className="hover:text-orange-500">
-                <Link href="/">🏠 HOME</Link>
+                <Link href="/"> HOME</Link>
               </li>
               <li className="px-4 py-2 hover:bg-gray-100 text-blue-600">
                 <Link href="Categories">CATEGORIES</Link>
